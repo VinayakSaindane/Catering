@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F9F5F0"/>
+  
+  <!-- Background decoration -->
+  <rect width="800" height="600" fill="#FDF7FA"/>
+  
+  <!-- Wedding arch -->
+  <path d="M250 450 
+           C250 250 550 250 550 450" 
+        stroke="#2C5F2D" stroke-width="15" fill="none"/>
+        
+  <!-- Flowers on arch -->
+  <!-- Left side flowers -->
+  <circle cx="250" cy="300" r="20" fill="#F8BBD0"/>
+  <circle cx="260" cy="290" r="15" fill="#F48FB1"/>
+  <circle cx="240" cy="290" r="15" fill="#F48FB1"/>
+  <circle cx="250" cy="280" r="15" fill="#F48FB1"/>
+  
+  <circle cx="280" cy="270" r="15" fill="#F8BBD0"/>
+  <circle cx="290" cy="265" r="10" fill="#F48FB1"/>
+  <circle cx="275" cy="260" r="10" fill="#F48FB1"/>
+  
+  <!-- Right side flowers -->
+  <circle cx="550" cy="300" r="20" fill="#F8BBD0"/>
+  <circle cx="540" cy="290" r="15" fill="#F48FB1"/>
+  <circle cx="560" cy="290" r="15" fill="#F48FB1"/>
+  <circle cx="550" cy="280" r="15" fill="#F48FB1"/>
+  
+  <circle cx="520" cy="270" r="15" fill="#F8BBD0"/>
+  <circle cx="510" cy="265" r="10" fill="#F48FB1"/>
+  <circle cx="525" cy="260" r="10" fill="#F48FB1"/>
+  
+  <!-- Center top flowers -->
+  <circle cx="400" cy="250" r="25" fill="#F8BBD0"/>
+  <circle cx="385" cy="240" r="18" fill="#F48FB1"/>
+  <circle cx="415" cy="240" r="18" fill="#F48FB1"/>
+  <circle cx="400" cy="235" r="18" fill="#F48FB1"/>
+  
+  <!-- Greenery on arch -->
+  <path d="M250 350 
+           C270 340 280 320 270 300" 
+        stroke="#4CAF50" stroke-width="5" fill="none"/>
+  <path d="M250 380 
+           C280 370 290 350 280 320" 
+        stroke="#4CAF50" stroke-width="5" fill="none"/>
+  <path d="M280 270 
+           C300 290 310 300 300 320" 
+        stroke="#4CAF50" stroke-width="5" fill="none"/>
+  
+  <path d="M550 350 
+           C530 340 520 320 530 300" 
+        stroke="#4CAF50" stroke-width="5" fill="none"/>
+  <path d="M550 380 
+           C520 370 510 350 520 320" 
+        stroke="#4CAF50" stroke-width="5" fill="none"/>
+  <path d="M520 270 
+           C500 290 490 300 500 320" 
+        stroke="#4CAF50" stroke-width="5" fill="none"/>
+  
+  <path d="M380 250 
+           C360 270 350 280 360 300" 
+        stroke="#4CAF50" stroke-width="5" fill="none"/>
+  <path d="M420 250 
+           C440 270 450 280 440 300" 
+        stroke="#4CAF50" stroke-width="5" fill="none"/>
+  
+  <!-- Wedding couple -->
+  <!-- Person 1 (left) -->
+  <path d="M370 450
+           L370 380
+           C370 370 380 360 390 360
+           C400 360 410 370 410 380
+           L410 450" 
+        fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2"/>
+  <circle cx="390" cy="340" r="25" fill="#FBD2C7"/>
+  
+  <!-- Person 2 (right) -->
+  <rect x="410" y="380" width="40" height="70" fill="#2C5F2D" opacity="0.8"/>
+  <circle cx="430" cy="340" r="25" fill="#FBD2C7"/>
+  <rect x="415" y="365" width="30" height="15" fill="#FFFFFF"/>
+  
+  <!-- Ground/floor -->
+  <rect x="0" y="450" width="800" height="150" fill="#F5F5F5"/>
+  
+  <!-- Decorative elements on floor -->
+  <circle cx="200" cy="500" r="10" fill="#F8BBD0"/>
+  <circle cx="220" cy="480" r="8" fill="#F8BBD0"/>
+  <circle cx="240" cy="510" r="12" fill="#F8BBD0"/>
+  
+  <circle cx="600" cy="500" r="10" fill="#F8BBD0"/>
+  <circle cx="580" cy="480" r="8" fill="#F8BBD0"/>
+  <circle cx="560" cy="510" r="12" fill="#F8BBD0"/>
+  
+  <!-- Table with cake -->
+  <rect x="300" y="480" width="200" height="70" rx="5" fill="#F9F5F0" stroke="#CCCCCC" stroke-width="2"/>
+  
+  <!-- Wedding cake -->
+  <rect x="350" y="450" width="100" height="30" rx="5" fill="#FFFFFF" stroke="#F5F5F5" stroke-width="2"/>
+  <rect x="360" y="420" width="80" height="30" rx="5" fill="#FFFFFF" stroke="#F5F5F5" stroke-width="2"/>
+  <rect x="370" y="390" width="60" height="30" rx="5" fill="#FFFFFF" stroke="#F5F5F5" stroke-width="2"/>
+  
+  <!-- Cake topper -->
+  <circle cx="400" cy="380" r="5" fill="#FFB347"/>
+  <path d="M395 380 L405 380" stroke="#2C5F2D" stroke-width="2"/>
+  <path d="M400 375 L400 385" stroke="#2C5F2D" stroke-width="2"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="150" r="40" fill="#F8BBD0" opacity="0.2"/>
+  <circle cx="650" cy="200" r="50" fill="#F8BBD0" opacity="0.2"/>
+  <circle cx="100" cy="400" r="30" fill="#FFB347" opacity="0.2"/>
+  <circle cx="700" cy="450" r="40" fill="#2C5F2D" opacity="0.2"/>
+</svg>

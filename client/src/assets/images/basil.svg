@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F9F5F0"/>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F4FFF4"/>
+  
+  <!-- Main stem -->
+  <path d="M400 550 
+           C400 450 390 400 400 350
+           C410 300 420 250 400 200" 
+        stroke="#2E7D32" stroke-width="8" fill="none"/>
+  
+  <!-- Leaf pairs (bottom to top) -->
+  
+  <!-- Pair 1 (largest/bottom) -->
+  <path d="M400 500 
+           C450 480 500 500 510 450
+           C520 400 490 380 450 390
+           C410 400 400 460 400 500Z" 
+        fill="#2E7D32"/>
+  <path d="M400 500 
+           C350 480 300 500 290 450
+           C280 400 310 380 350 390
+           C390 400 400 460 400 500Z" 
+        fill="#2E7D32"/>
+  
+  <!-- Pair 2 -->
+  <path d="M400 430 
+           C440 410 480 430 490 390
+           C500 350 470 335 440 345
+           C410 355 400 400 400 430Z" 
+        fill="#388E3C"/>
+  <path d="M400 430 
+           C360 410 320 430 310 390
+           C300 350 330 335 360 345
+           C390 355 400 400 400 430Z" 
+        fill="#388E3C"/>
+  
+  <!-- Pair 3 -->
+  <path d="M400 360 
+           C430 345 460 360 470 330
+           C480 300 455 290 430 298
+           C405 306 400 340 400 360Z" 
+        fill="#43A047"/>
+  <path d="M400 360 
+           C370 345 340 360 330 330
+           C320 300 345 290 370 298
+           C395 306 400 340 400 360Z" 
+        fill="#43A047"/>
+  
+  <!-- Pair 4 -->
+  <path d="M400 300 
+           C425 288 450 300 458 275
+           C466 250 446 242 425 248
+           C404 254 400 285 400 300Z" 
+        fill="#4CAF50"/>
+  <path d="M400 300 
+           C375 288 350 300 342 275
+           C334 250 354 242 375 248
+           C396 254 400 285 400 300Z" 
+        fill="#4CAF50"/>
+  
+  <!-- Pair 5 (smallest/top) -->
+  <path d="M400 250 
+           C420 240 440 250 446 230
+           C452 210 436 204 420 208
+           C404 212 400 240 400 250Z" 
+        fill="#66BB6A"/>
+  <path d="M400 250 
+           C380 240 360 250 354 230
+           C348 210 364 204 380 208
+           C396 212 400 240 400 250Z" 
+        fill="#66BB6A"/>
+  
+  <!-- Top small leaves -->
+  <path d="M400 210 
+           C410 202 422 210 426 197
+           C430 184 420 180 410 182
+           C400 184 400 205 400 210Z" 
+        fill="#81C784"/>
+  <path d="M400 210 
+           C390 202 378 210 374 197
+           C370 184 380 180 390 182
+           C400 184 400 205 400 210Z" 
+        fill="#81C784"/>
+  
+  <!-- Veins on select leaves for detail -->
+  <!-- Large leaf left veins -->
+  <path d="M400 500 C380 480 350 465 320 470" stroke="#1B5E20" stroke-width="2" fill="none"/>
+  <path d="M400 500 C385 470 360 450 340 440" stroke="#1B5E20" stroke-width="2" fill="none"/>
+  <path d="M400 500 C390 460 370 430 360 410" stroke="#1B5E20" stroke-width="2" fill="none"/>
+  
+  <!-- Large leaf right veins -->
+  <path d="M400 500 C420 480 450 465 480 470" stroke="#1B5E20" stroke-width="2" fill="none"/>
+  <path d="M400 500 C415 470 440 450 460 440" stroke="#1B5E20" stroke-width="2" fill="none"/>
+  <path d="M400 500 C410 460 430 430 440 410" stroke="#1B5E20" stroke-width="2" fill="none"/>
+  
+  <!-- Middle left leaf veins -->
+  <path d="M400 360 C385 350 365 345 345 350" stroke="#1B5E20" stroke-width="1.5" fill="none"/>
+  <path d="M400 360 C390 345 375 335 355 330" stroke="#1B5E20" stroke-width="1.5" fill="none"/>
+  
+  <!-- Middle right leaf veins -->
+  <path d="M400 360 C415 350 435 345 455 350" stroke="#1B5E20" stroke-width="1.5" fill="none"/>
+  <path d="M400 360 C410 345 425 335 445 330" stroke="#1B5E20" stroke-width="1.5" fill="none"/>
+  
+  <!-- Small decorative leaves -->
+  <path d="M250 180 
+           C270 160 300 170 310 140
+           C320 110 300 90 270 100
+           C240 110 230 150 250 180Z" 
+        fill="#66BB6A" opacity="0.7"/>
+  
+  <path d="M550 150 
+           C570 130 600 140 610 110
+           C620 80 600 60 570 70
+           C540 80 530 120 550 150Z" 
+        fill="#4CAF50" opacity="0.7"/>
+  
+  <path d="M650 350 
+           C670 330 700 340 710 310
+           C720 280 700 260 670 270
+           C640 280 630 320 650 350Z" 
+        fill="#43A047" opacity="0.7"/>
+          
+  <path d="M150 350 
+           C170 330 200 340 210 310
+           C220 280 200 260 170 270
+           C140 280 130 320 150 350Z" 
+        fill="#388E3C" opacity="0.7"/>
+</svg>

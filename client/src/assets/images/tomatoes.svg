@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F9F5F0"/>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FAF3E1"/>
+  
+  <!-- Tomato 1 - large red -->
+  <circle cx="300" cy="300" r="120" fill="#E74C3C"/>
+  <path d="M300 180 C290 180 280 185 275 190 C270 195 265 210 265 220" stroke="#2E7D32" stroke-width="8" stroke-linecap="round"/>
+  <path d="M300 180 C310 180 320 185 325 190 C330 195 335 210 335 220" stroke="#2E7D32" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Tomato 2 - medium yellow -->
+  <circle cx="500" cy="250" r="90" fill="#F1C40F"/>
+  <path d="M500 160 C490 160 480 165 475 170 C470 175 465 190 465 200" stroke="#2E7D32" stroke-width="8" stroke-linecap="round"/>
+  <path d="M500 160 C510 160 520 165 525 170 C530 175 535 190 535 200" stroke="#2E7D32" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Tomato 3 - small orange -->
+  <circle cx="180" cy="200" r="70" fill="#E67E22"/>
+  <path d="M180 130 C170 130 160 135 155 140 C150 145 145 160 145 170" stroke="#2E7D32" stroke-width="6" stroke-linecap="round"/>
+  <path d="M180 130 C190 130 200 135 205 140 C210 145 215 160 215 170" stroke="#2E7D32" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Tomato 4 - small purple -->
+  <circle cx="400" cy="430" r="80" fill="#8E44AD"/>
+  <path d="M400 350 C390 350 380 355 375 360 C370 365 365 380 365 390" stroke="#2E7D32" stroke-width="7" stroke-linecap="round"/>
+  <path d="M400 350 C410 350 420 355 425 360 C430 365 435 380 435 390" stroke="#2E7D32" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Tomato 5 - medium green -->
+  <circle cx="600" cy="400" r="85" fill="#27AE60"/>
+  <path d="M600 315 C590 315 580 320 575 325 C570 330 565 345 565 355" stroke="#2E7D32" stroke-width="7" stroke-linecap="round"/>
+  <path d="M600 315 C610 315 620 320 625 325 C630 330 635 345 635 355" stroke="#2E7D32" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="250" cy="480" r="30" fill="#E74C3C" opacity="0.5"/>
+  <circle cx="550" cy="150" r="25" fill="#F1C40F" opacity="0.5"/>
+  <circle cx="120" cy="350" r="20" fill="#E67E22" opacity="0.5"/>
+  <circle cx="700" cy="300" r="35" fill="#27AE60" opacity="0.5"/>
+  <circle cx="450" cy="100" r="15" fill="#8E44AD" opacity="0.5"/>
+  
+  <!-- Light shadows to add depth -->
+  <circle cx="300" cy="300" r="110" fill="#000000" opacity="0.05"/>
+  <circle cx="500" cy="250" r="82" fill="#000000" opacity="0.05"/>
+  <circle cx="180" cy="200" r="63" fill="#000000" opacity="0.05"/>
+  <circle cx="400" cy="430" r="73" fill="#000000" opacity="0.05"/>
+  <circle cx="600" cy="400" r="78" fill="#000000" opacity="0.05"/>
+</svg>
