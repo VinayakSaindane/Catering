@@ -49,7 +49,7 @@ const Contact = () => {
   const { toast } = useToast();
   
   useEffect(() => {
-    document.title = "Contact Us | Harvest Table Catering";
+    document.title = "Contact Us | Shri Cooking & Catering Services";
   }, []);
 
   const currentSeason = getCurrentSeason();
@@ -127,7 +127,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-[#2C5F2D] text-lg">Phone</h3>
-                    <p className="text-[#5A4A42]">(555) 123-4567</p>
+                    <p className="text-[#5A4A42]">+91 70289 26020</p>
                   </div>
                 </div>
                 
@@ -137,7 +137,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-[#2C5F2D] text-lg">Email</h3>
-                    <p className="text-[#5A4A42]">info@harvesttablecatering.com</p>
+                    <p className="text-[#5A4A42]">ithakurm@yahoo.com</p>
                   </div>
                 </div>
                 
@@ -147,7 +147,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-[#2C5F2D] text-lg">Location</h3>
-                    <p className="text-[#5A4A42]">123 Farm Lane, Greenville, CA 95463</p>
+                    <p className="text-[#5A4A42]">Satpala, Virar(W)</p>
                   </div>
                 </div>
               </div>

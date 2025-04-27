@@ -5,7 +5,7 @@ import { services } from "@/lib/data";
 
 const Services = () => {
   useEffect(() => {
-    document.title = "Our Services | Harvest Table Catering";
+    document.title = "Our Services | Shri Cooking & Catering Services";
   }, []);
 
   return (

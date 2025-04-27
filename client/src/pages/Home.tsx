@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Harvest Table Catering | Hyper-Local & Seasonal Ingredients";
+    document.title = "Shri Cooking & Catering Services | Hyper-Local & Seasonal Ingredients";
   }, []);
 
   return (

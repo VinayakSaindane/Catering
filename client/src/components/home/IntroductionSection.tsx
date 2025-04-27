@@ -11,7 +11,7 @@ const IntroductionSection = () => {
               We Cook with the Seasons, Not Against Them
             </h2>
             <p className="text-[#5A4A42] mb-6 text-lg">
-              At Harvest Table Catering, we believe the most flavorful ingredients are those grown nearby and harvested at their peak. That's why we've built partnerships with over 20 local farms to bring you the freshest seasonal bounty.
+              At Shri Cooking & Catering Services, we believe the most flavorful ingredients are those grown nearby and harvested at their peak. That's why we've built partnerships with over 20 local farms to bring you the freshest seasonal bounty.
             </p>
             <p className="text-[#5A4A42] mb-8 text-lg">
               Our menus transform with the changing seasons, ensuring your event features ingredients at their most vibrant and delicious. From spring asparagus to autumn squash, we celebrate nature's calendar in every dish.

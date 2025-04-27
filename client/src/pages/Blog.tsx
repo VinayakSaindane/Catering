@@ -7,7 +7,7 @@ import { formatDate } from "@/lib/utils";
 
 const Blog = () => {
   useEffect(() => {
-    document.title = "Blog | Harvest Table Catering";
+    document.title = "Blog | Shri Cooking & Catering Services";
   }, []);
 
   return (
@@ -30,7 +30,7 @@ const Blog = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="h-64 lg:h-auto overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1595352080848-5da448631a3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=800&q=80" 
+                    src="https://hogr.app/blog/wp-content/uploads/2024/03/image-8-612x400.png" 
                     alt="Behind the Scenes: A Day on the Farm with Our Chef" 
                     className="w-full h-full object-cover transition-transform hover:scale-105"
                   />

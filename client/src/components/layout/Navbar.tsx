@@ -45,12 +45,12 @@ const Navbar = () => {
           <div className="flex justify-between items-center py-4">
             <Link href="/" className="flex items-center">
               <img 
-                src="https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" 
-                alt="Harvest Table Catering Logo" 
+                src="https://i.pinimg.com/474x/1c/f7/78/1cf77884ef836c0c792970a1467533ca.jpg" 
+                alt="Shri Cooking & Catering Logo" 
                 className="h-10 w-10 rounded-full object-cover mr-3"
               />
               <span className="font-['Playfair_Display'] font-bold text-xl md:text-2xl text-[#2C5F2D]">
-                Harvest Table
+                Shri Cooking & Catering Services
               </span>
             </Link>
             

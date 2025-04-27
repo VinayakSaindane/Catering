@@ -9,11 +9,11 @@ const Footer = () => {
             <div className="flex items-center mb-6">
               <img 
                 src="https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" 
-                alt="Harvest Table Catering Logo" 
+                alt="Shri Cooking & Catering Logo" 
                 className="h-10 w-10 rounded-full object-cover mr-3"
               />
               <span className="font-['Playfair_Display'] font-bold text-xl text-white">
-                Harvest Table
+                Shri Cooking & Catering Services
               </span>
             </div>
             <p className="text-white/80 mb-6">
@@ -65,15 +65,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-3 text-[#FFB347]"></i>
-                <span className="text-white/80">123 Farm Lane, Greenville, CA 95463</span>
+                <span className="text-white/80">Satpala, Virar (W)</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-phone-alt mt-1 mr-3 text-[#FFB347]"></i>
-                <span className="text-white/80">(555) 123-4567</span>
+                <span className="text-white/80">+91 70289 26020</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-envelope mt-1 mr-3 text-[#FFB347]"></i>
-                <span className="text-white/80">info@harvesttablecatering.com</span>
+                <span className="text-white/80">thakurm19@yahoo.com</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-clock mt-1 mr-3 text-[#FFB347]"></i>
@@ -85,7 +85,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Harvest Table Catering. All rights reserved.
+            &copy; {new Date().getFullYear()} Shri Cooking & Catering Services. All rights reserved.
           </p>
           <div className="flex space-x-4 text-sm text-white/60">
             <a href="#" className="hover:text-[#FFB347] transition-colors">Privacy Policy</a>

@@ -4,7 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Gallery = () => {
   useEffect(() => {
-    document.title = "Gallery | Harvest Table Catering";
+    document.title = "Gallery | Shri Cooking & Catering Services";
   }, []);
 
   const [activeCategory, setActiveCategory] = useState("all");

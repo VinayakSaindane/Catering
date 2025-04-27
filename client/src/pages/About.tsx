@@ -4,7 +4,7 @@ import { Link } from "wouter";
 
 const About = () => {
   useEffect(() => {
-    document.title = "About Us | Harvest Table Catering";
+    document.title = "About Us | Shri Cooking & Catering";
   }, []);
 
   return (
@@ -14,7 +14,7 @@ const About = () => {
           <div className="max-w-3xl mx-auto mb-16">
             <span className="text-[#CC704B] font-medium mb-3 block">OUR STORY</span>
             <h1 className="font-['Playfair_Display'] font-bold text-4xl md:text-5xl text-[#2C5F2D] mb-6">
-              About Harvest Table Catering
+              About Shri Cooking & Catering Services
             </h1>
             <p className="text-[#5A4A42] text-lg">
               Discover the passion behind our farm-to-table approach and our commitment to celebrating local ingredients.
@@ -24,7 +24,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=800&q=80" 
+                src="https://5.imimg.com/data5/VW/UQ/BW/GLADMIN-56450036/selection-683.png" 
                 alt="Harvest Table team" 
                 className="rounded-lg shadow-md w-full h-auto"
               />
@@ -32,7 +32,7 @@ const About = () => {
             <div>
               <h2 className="font-['Playfair_Display'] font-bold text-3xl text-[#2C5F2D] mb-6">Our Mission</h2>
               <p className="text-[#5A4A42] mb-6">
-                At Harvest Table Catering, we're on a mission to transform how people experience food at events. We believe that exceptional catering begins with exceptional ingredients, which is why we commit to sourcing at least 90% of our ingredients from within 50 miles of our kitchen.
+                At Shri Cooking & Catering Services, we're on a mission to transform how people experience food at events. We believe that exceptional catering begins with exceptional ingredients, which is why we commit to sourcing at least 90% of our ingredients from within 50 miles of our kitchen.
               </p>
               <p className="text-[#5A4A42] mb-6">
                 Founded in 2015 by Chef Maria Johnson, our company grew from a passion for showcasing the incredible bounty of our region's small farms and artisan producers. With over 15 years of experience in fine dining restaurants, Chef Maria wanted to bring restaurant-quality, seasonal cuisine to catered events.
@@ -66,46 +66,19 @@ const About = () => {
           </div>
 
           <div className="bg-[#F9F5F0] rounded-lg p-8 md:p-12 mb-20">
-            <h2 className="font-['Playfair_Display'] font-bold text-3xl text-[#2C5F2D] mb-6 text-center">Meet Our Team</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <img 
-                  src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" 
-                  alt="Chef Maria Johnson" 
-                  className="w-48 h-48 rounded-full object-cover mx-auto mb-4"
-                />
-                <h3 className="font-bold text-lg text-[#5A4A42]">Maria Johnson</h3>
-                <p className="text-[#2C5F2D] font-medium">Executive Chef & Founder</p>
-              </div>
-              <div className="text-center">
-                <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" 
-                  alt="David Chen" 
-                  className="w-48 h-48 rounded-full object-cover mx-auto mb-4"
-                />
-                <h3 className="font-bold text-lg text-[#5A4A42]">David Chen</h3>
-                <p className="text-[#2C5F2D] font-medium">Operations Director</p>
-              </div>
-              <div className="text-center">
-                <img 
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" 
-                  alt="Sophia Martinez" 
-                  className="w-48 h-48 rounded-full object-cover mx-auto mb-4"
-                />
-                <h3 className="font-bold text-lg text-[#5A4A42]">Sophia Martinez</h3>
-                <p className="text-[#2C5F2D] font-medium">Pastry Chef</p>
-              </div>
-              <div className="text-center">
-                <img 
-                  src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" 
-                  alt="Marcus Williams" 
-                  className="w-48 h-48 rounded-full object-cover mx-auto mb-4"
-                />
-                <h3 className="font-bold text-lg text-[#5A4A42]">Marcus Williams</h3>
-                <p className="text-[#2C5F2D] font-medium">Event Coordinator</p>
-              </div>
-            </div>
-          </div>
+    <h2 className="font-['Playfair_Display'] font-bold text-3xl text-[#2C5F2D] mb-6 text-center">Meet Our Team</h2>
+    <div className="grid grid-cols-1 gap-8 justify-items-center">
+        <div className="text-center">
+            <img
+                src="/src/assets/images/mohit.png"
+                alt="Chef Mohit Thakur"
+                className="w-48 h-48 rounded-full object-cover mx-auto mb-4"
+            />
+            <h3 className="font-bold text-lg text-[#5A4A42]">Mohit Thakur</h3>
+            <p className="text-[#2C5F2D] font-medium">Executive Chef & Founder</p>
+        </div>
+    </div>
+</div>
 
           <div className="text-center max-w-3xl mx-auto mb-8">
             <h2 className="font-['Playfair_Display'] font-bold text-3xl text-[#2C5F2D] mb-6">Our Farm Partners</h2>
@@ -147,7 +120,7 @@ const About = () => {
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1595352080848-5da448631a3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80" 
+                src="https://cheeseworks.ca/cdn/shop/files/Sunshine-Feta.jpg?v=1700501729&width=3840" 
                 alt="Sunshine Herbs" 
                 className="w-full h-48 object-cover"
               />

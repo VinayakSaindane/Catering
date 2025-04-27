@@ -62,7 +62,7 @@ export const services = [
     id: 1,
     title: "Corporate Events",
     description: "Elevate your business gatherings with seasonally-inspired menus that impress clients and energize team members. From board meetings to company celebrations.",
-    image: "https://images.unsplash.com/photo-1519654793190-2e08ec8ddb83?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+    image: "https://www.tantraa.net/images/portfolio/events/carousel2.png",
     features: [
       "Breakfast & lunch packages",
       "Conference & meeting catering",
@@ -101,23 +101,23 @@ export const testimonials = [
   {
     id: 1,
     text: "The farm-to-table concept wasn't just marketing speak – they actually knew the names of the farmers who grew our food! Guests are still talking about how fresh everything tasted at our wedding.",
-    name: "Sarah & Michael",
+    name: "Suresh Kumar",
     role: "Wedding Reception",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80"
+    image: "https://t3.ftcdn.net/jpg/09/30/44/42/360_F_930444293_MAuQUa0dVHt9UgBpYmRC8v7Aih4VML4c.jpg"
   },
   {
     id: 2,
     text: "Harvest Table catered our company's quarterly meeting and the seasonal menu was impressive. The summer vegetable tart was so good our CEO asked for the recipe! Professional service and exceptional food.",
-    name: "James Wilson",
+    name: "Deepika Menon",
     role: "TechNova Inc.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80"
+    image: "https://media.istockphoto.com/id/1987655119/photo/smiling-young-businesswoman-standing-in-the-corridor-of-an-office.jpg?s=612x612&w=0&k=20&c=5N_IVGYsXoyj-H9vEiZUCLqbmmineaemQsKt2NTXGms="
   },
   {
     id: 3,
     text: "I hired Harvest Table for my mother's 70th birthday. They created a menu that honored her Italian heritage while using local ingredients. It was the perfect blend of comfort and sophistication.",
-    name: "Elena Rodriguez",
+    name: "Anjali Patel",
     role: "Private Birthday Dinner",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80"
+    image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA4L3Jhd3BpeGVsX29mZmljZV8zNV9iZWF1dGlmdWxfc21pbGluZ195b3VuZ19pbmRpYW5fYnVzaW5lc3Nfd29tYV8yYWM3MjMyNS1jZmU3LTQ5ODgtODBkNi03YjViZTg3ODYzNjNfMS5qcGc.jpg"
   }
 ];
 
@@ -199,7 +199,7 @@ export const galleryCategories = [
       },
       {
         id: 2,
-        src: "https://images.unsplash.com/photo-1540317580384-e5d43867caa6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+        src: "https://swagath.com.au/wp-content/uploads/2022/01/buffet-gd505df510_640.jpg",
         alt: "Executive meeting with catered breakfast"
       },
       {

@@ -21,7 +21,7 @@ interface MenuCategory {
 
 const Menus = () => {
   useEffect(() => {
-    document.title = "Seasonal Menus | Harvest Table Catering";
+    document.title = "Seasonal Menus | Shri Cooking & Catering Services";
   }, []);
 
   const currentSeason = getCurrentSeason().toLowerCase();

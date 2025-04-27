@@ -31,7 +31,7 @@ const SeasonalHighlight = () => {
             >
               <div className="relative h-64">
                 <img 
-                  src={ingredient.image}
+                  src={"https://diethood.com/wp-content/uploads/2018/02/Sheet-Pan-Steak-and-Veggies-Recipe.jpg"}
                   alt={`Fresh ${ingredient.name} from ${ingredient.farm}`}
                   className="w-full h-full object-cover"
                 />

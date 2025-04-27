@@ -5,7 +5,7 @@ import { testimonials, trustedClients } from "@/lib/data";
 
 const Testimonials = () => {
   useEffect(() => {
-    document.title = "Client Testimonials | Harvest Table Catering";
+    document.title = "Client Testimonials | Shri Cooking & Catering Services";
   }, []);
 
   return (
@@ -54,8 +54,8 @@ const Testimonials = () => {
               <div className="p-8 md:p-12 grid grid-cols-1 md:grid-cols-5 gap-8">
                 <div className="md:col-span-1 flex flex-col items-center">
                   <img 
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80"
-                    alt="Robert Thompson"
+                    src="https://t3.ftcdn.net/jpg/02/48/15/86/360_F_248158608_0ErNeAWWx6GZVDCg66jNRoPGEhHCSpaJ.jpg"
+                    alt="Rahul Verma"
                     className="w-24 h-24 rounded-full object-cover mb-4"
                   />
                   <h3 className="font-bold text-[#2C5F2D] text-center">Robert Thompson</h3>
@@ -75,8 +75,8 @@ const Testimonials = () => {
               <div className="p-8 md:p-12 grid grid-cols-1 md:grid-cols-5 gap-8">
                 <div className="md:col-span-1 flex flex-col items-center">
                   <img 
-                    src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80"
-                    alt="Jennifer & Daniel Walker"
+                    src="https://www.shutterstock.com/image-photo/proud-confident-bearded-indian-business-260nw-2203174407.jpg"
+                    alt="Vikram Singh"
                     className="w-24 h-24 rounded-full object-cover mb-4"
                   />
                   <h3 className="font-bold text-[#2C5F2D] text-center">Jennifer & Daniel Walker</h3>
