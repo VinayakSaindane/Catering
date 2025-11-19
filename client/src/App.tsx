@@ -10,6 +10,8 @@ import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Services from "@/pages/Services";
 import Menus from "@/pages/Menus";
+import Banquet from "@/pages/Banquet";
+import Rooms from "@/pages/Rooms";
 import Gallery from "@/pages/Gallery";
 import Testimonials from "@/pages/Testimonials";
 import Blog from "@/pages/Blog";
@@ -25,6 +27,8 @@ function Router() {
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
         <Route path="/menus" component={Menus} />
+        <Route path="/banquet" component={Banquet} />
+        <Route path="/rooms" component={Rooms} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/testimonials" component={Testimonials} />
         <Route path="/blog" component={Blog} />
