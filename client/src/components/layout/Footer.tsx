@@ -8,16 +8,16 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-6">
               <img 
-                src="https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" 
-                alt="Shri Cooking & Catering Logo" 
+                src="https://images.unsplash.com/photo-1541542684-4a0b63f8675f?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" 
+                alt="Kingsland Restaurant & Banquets Logo" 
                 className="h-10 w-10 rounded-full object-cover mr-3"
               />
               <span className="font-['Playfair_Display'] font-bold text-xl text-white">
-                Shri Cooking & Catering Services
+                Kingsland Restaurant & Banquets
               </span>
             </div>
             <p className="text-white/80 mb-6">
-              Crafting extraordinary catering experiences with ingredients sourced within 50 miles, celebrating the seasons and supporting local farmers.
+              Dining, celebrations, and comfortable stays — experience Kingsland hospitality under one roof.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-[#FFB347] transition-colors" aria-label="Facebook">
@@ -41,6 +41,8 @@ const Footer = () => {
               <li><Link href="/" className="text-white/80 hover:text-[#FFB347] transition-colors">Home</Link></li>
               <li><Link href="/about" className="text-white/80 hover:text-[#FFB347] transition-colors">About Us</Link></li>
               <li><Link href="/services" className="text-white/80 hover:text-[#FFB347] transition-colors">Services</Link></li>
+              <li><Link href="/banquet" className="text-white/80 hover:text-[#FFB347] transition-colors">Banquet</Link></li>
+              <li><Link href="/rooms" className="text-white/80 hover:text-[#FFB347] transition-colors">Rooms</Link></li>
               <li><Link href="/menus" className="text-white/80 hover:text-[#FFB347] transition-colors">Seasonal Menus</Link></li>
               <li><Link href="/gallery" className="text-white/80 hover:text-[#FFB347] transition-colors">Gallery</Link></li>
               <li><Link href="/testimonials" className="text-white/80 hover:text-[#FFB347] transition-colors">Testimonials</Link></li>
@@ -52,11 +54,11 @@ const Footer = () => {
           <div>
             <h3 className="font-['Playfair_Display'] font-bold text-lg mb-6">Services</h3>
             <ul className="space-y-3">
-              <li><Link href="/services#corporate" className="text-white/80 hover:text-[#FFB347] transition-colors">Corporate Events</Link></li>
-              <li><Link href="/services#weddings" className="text-white/80 hover:text-[#FFB347] transition-colors">Weddings & Celebrations</Link></li>
-              <li><Link href="/services#private" className="text-white/80 hover:text-[#FFB347] transition-colors">Private Dining</Link></li>
-              <li><Link href="/services#classes" className="text-white/80 hover:text-[#FFB347] transition-colors">Cooking Classes</Link></li>
-              <li><Link href="/services#planning" className="text-white/80 hover:text-[#FFB347] transition-colors">Seasonal Menu Planning</Link></li>
+              <li><Link href="/services#dining" className="text-white/80 hover:text-[#FFB347] transition-colors">Restaurant Dining</Link></li>
+              <li><Link href="/banquet" className="text-white/80 hover:text-[#FFB347] transition-colors">Banquets & Events</Link></li>
+              <li><Link href="/rooms" className="text-white/80 hover:text-[#FFB347] transition-colors">Rooms & Stay</Link></li>
+              <li><Link href="/services#catering" className="text-white/80 hover:text-[#FFB347] transition-colors">Outdoor Catering</Link></li>
+              <li><Link href="/menus" className="text-white/80 hover:text-[#FFB347] transition-colors">Seasonal Menu Planning</Link></li>
             </ul>
           </div>
           
@@ -73,11 +75,11 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <i className="fas fa-envelope mt-1 mr-3 text-[#FFB347]"></i>
-                <span className="text-white/80">thakurm19@yahoo.com</span>
+                <span className="text-white/80">kingsland@hospitality.com</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-clock mt-1 mr-3 text-[#FFB347]"></i>
-                <span className="text-white/80">Mon-Fri: 9am-5pm<br />Weekends: By appointment</span>
+                <span className="text-white/80">Mon-Sun: 7am-11pm</span>
               </li>
             </ul>
           </div>
@@ -85,7 +87,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Shri Cooking & Catering Services. All rights reserved.
+            &copy; {new Date().getFullYear()} Kingsland Restaurant & Banquets. All rights reserved.
           </p>
           <div className="flex space-x-4 text-sm text-white/60">
             <a href="#" className="hover:text-[#FFB347] transition-colors">Privacy Policy</a>

@@ -14,20 +14,20 @@ const HeroSection = () => {
           <div className="w-full md:max-w-2xl relative">
             <div className="bg-[#F9F5F0] bg-opacity-90 p-8 md:p-12 rounded-lg shadow-lg">
               <span className="inline-block px-4 py-1 rounded-full bg-[#FFB347] text-[#5A4A42] font-medium text-sm mb-6">
-                Hyper-Local & Seasonal Sourcing
+                Kingsland Restaurant • Banquets • Rooms
               </span>
               <h1 className="font-['Playfair_Display'] font-bold text-4xl md:text-5xl lg:text-6xl text-[#2C5F2D] leading-tight mb-6">
-                From Our Neighbor's Field to Your Table
+                Celebrate Taste. Stay in Comfort.
               </h1>
               <p className="text-[#5A4A42] text-lg md:text-xl mb-8">
-                Crafting extraordinary catering experiences with ingredients sourced within 50 miles, celebrating the seasons and supporting local farmers.
+                Experience warm hospitality, elegant banquets, and wholesome dining. Seasonal menus, curated events, and comfortable stays — all at Kingsland.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link href="/menus">
                   <Button 
                     className="w-full sm:w-auto bg-[#2C5F2D] hover:bg-[#3A7F3B] text-white rounded-full px-8 py-6 h-auto"
                   >
-                    Explore Seasonal Menus
+                    Explore Menu
                   </Button>
                 </Link>
                 <Link href="/contact">
@@ -35,7 +35,7 @@ const HeroSection = () => {
                     variant="outline"
                     className="w-full sm:w-auto bg-transparent hover:bg-[#CC704B]/10 text-[#CC704B] border-2 border-[#CC704B] rounded-full px-8 py-6 h-auto"
                   >
-                    Request a Quote
+                    Enquire Banquet / Rooms
                   </Button>
                 </Link>
               </div>

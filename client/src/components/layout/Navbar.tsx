@@ -29,6 +29,8 @@ const Navbar = () => {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/services", label: "Services" },
+    { href: "/banquet", label: "Banquet" },
+    { href: "/rooms", label: "Rooms" },
     { href: "/menus", label: "Menus" },
     { href: "/gallery", label: "Gallery" },
     { href: "/testimonials", label: "Testimonials" },
@@ -45,12 +47,12 @@ const Navbar = () => {
           <div className="flex justify-between items-center py-4">
             <Link href="/" className="flex items-center">
               <img 
-                src="https://i.pinimg.com/474x/1c/f7/78/1cf77884ef836c0c792970a1467533ca.jpg" 
-                alt="Shri Cooking & Catering Logo" 
+                src="https://images.unsplash.com/photo-1541542684-4a0b63f8675f?q=80&w=200&auto=format&fit=crop" 
+                alt="Kingsland Restaurant & Banquets Logo" 
                 className="h-10 w-10 rounded-full object-cover mr-3"
               />
               <span className="font-['Playfair_Display'] font-bold text-xl md:text-2xl text-[#2C5F2D]">
-                Shri Cooking & Catering Services
+                Kingsland Restaurant & Banquets
               </span>
             </Link>
             
@@ -71,7 +73,7 @@ const Navbar = () => {
                 <Button 
                   className="bg-[#2C5F2D] hover:bg-[#3A7F3B] text-white rounded-full"
                 >
-                  Get Quote
+                  Book Now
                 </Button>
               </Link>
             </div>
@@ -113,7 +115,7 @@ const Navbar = () => {
             className="block bg-[#2C5F2D] hover:bg-[#3A7F3B] text-white px-5 py-2 rounded-full font-medium text-center mt-6 transition-colors"
             onClick={closeMenu}
           >
-            Get Quote
+            Book Now
           </Link>
         </div>
       </div>

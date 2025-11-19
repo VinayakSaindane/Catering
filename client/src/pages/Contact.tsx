@@ -49,7 +49,7 @@ const Contact = () => {
   const { toast } = useToast();
   
   useEffect(() => {
-    document.title = "Contact Us | Shri Cooking & Catering Services";
+    document.title = "Contact Us | Kingsland Restaurant & Banquets";
   }, []);
 
   const currentSeason = getCurrentSeason();
@@ -137,7 +137,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-[#2C5F2D] text-lg">Email</h3>
-                    <p className="text-[#5A4A42]">ithakurm@yahoo.com</p>
+                    <p className="text-[#5A4A42]">kingsland@hospitality.com</p>
                   </div>
                 </div>
                 

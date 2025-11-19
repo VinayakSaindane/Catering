@@ -21,7 +21,7 @@ interface MenuCategory {
 
 const Menus = () => {
   useEffect(() => {
-    document.title = "Seasonal Menus | Shri Cooking & Catering Services";
+    document.title = "Seasonal Menus | Kingsland Restaurant & Banquets";
   }, []);
 
   const currentSeason = getCurrentSeason().toLowerCase();

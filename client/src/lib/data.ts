@@ -60,39 +60,39 @@ export const seasonalIngredients = [
 export const services = [
   {
     id: 1,
-    title: "Corporate Events",
-    description: "Elevate your business gatherings with seasonally-inspired menus that impress clients and energize team members. From board meetings to company celebrations.",
-    image: "https://www.tantraa.net/images/portfolio/events/carousel2.png",
+    title: "Restaurant Dining",
+    description: "Wholesome, seasonal dishes in a warm, family-friendly setting. Enjoy favorites and chef’s specials crafted with fresh ingredients.",
+    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1600&auto=format&fit=crop",
     features: [
-      "Breakfast & lunch packages",
-      "Conference & meeting catering",
-      "Corporate galas & celebrations"
+      "Seasonal à la carte menu",
+      "Family dining & takeaway",
+      "Live counters on weekends"
     ],
-    ctaText: "Request corporate quote"
+    ctaText: "Reserve a table"
   },
   {
     id: 2,
-    title: "Weddings & Celebrations",
-    description: "Create unforgettable memories with a wedding menu that reflects your unique story while showcasing the finest seasonal ingredients from local farms.",
-    image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+    title: "Banquets & Events",
+    description: "Host weddings, receptions, and corporate events at Kingsland Banquet Hall featuring elegant decor, lighting, and flexible seating.",
+    image: "https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=1600&auto=format&fit=crop",
     features: [
-      "Customized wedding menus",
-      "Cocktail hour & reception service",
-      "Dessert & cake service"
+      "Up to 350 guests",
+      "Custom decor & stage",
+      "Multi-cuisine live counters"
     ],
-    ctaText: "Plan your wedding menu"
+    ctaText: "Enquire banquet"
   },
   {
     id: 3,
-    title: "Private Events",
-    description: "Transform intimate gatherings into extraordinary experiences with personalized catering that brings the farm-to-table philosophy directly to your home.",
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80",
+    title: "Rooms & Stay",
+    description: "Unwind in thoughtfully designed rooms and suites with essential comforts — perfect for weekend getaways and event stays.",
+    image: "https://images.unsplash.com/photo-1505691723518-36a5ac3b2b8f?q=80&w=1600&auto=format&fit=crop",
     features: [
-      "In-home private chef experiences",
-      "Birthday & anniversary celebrations",
-      "Holiday & special occasion menus"
+      "Deluxe & Executive rooms",
+      "Complimentary Wi‑Fi & breakfast",
+      "Family suite options"
     ],
-    ctaText: "Book your private event"
+    ctaText: "Enquire room"
   }
 ];
 

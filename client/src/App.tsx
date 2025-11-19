@@ -15,6 +15,8 @@ import Testimonials from "@/pages/Testimonials";
 import Blog from "@/pages/Blog";
 import Contact from "@/pages/Contact";
 import NotFound from "@/pages/not-found";
+import Banquet from "@/pages/Banquet";
+import Rooms from "@/pages/Rooms";
 
 function Router() {
   return (
@@ -28,6 +30,8 @@ function Router() {
         <Route path="/gallery" component={Gallery} />
         <Route path="/testimonials" component={Testimonials} />
         <Route path="/blog" component={Blog} />
+        <Route path="/banquet" component={Banquet} />
+        <Route path="/rooms" component={Rooms} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>
