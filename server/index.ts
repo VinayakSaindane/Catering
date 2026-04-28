@@ -1,8 +1,9 @@
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
+import { Server } from "http";
 
-const app = express();
+export const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
@@ -56,26 +57,30 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  // Try to serve the app on port 5000, if not available try port 3000
-  // this serves both the API and the client.
-  const tryPort = (port: number) => {
-    const serverInstance = server.listen({
-      port,
-      host: "0.0.0.0",
-      reusePort: true,
-    }, () => {
-      log(`serving on port ${port}`);
-    });
+  if (process.env.NODE_ENV !== "production") {
+    // Try to serve the app on port 5000, if not available try port 3000
+    // this serves both the API and the client.
+    const tryPort = (port: number) => {
+      const serverInstance = server.listen({
+        port,
+        host: "0.0.0.0",
+        reusePort: true,
+      }, () => {
+        log(`serving on port ${port}`);
+      });
 
-    serverInstance.on('error', (err: any) => {
-      if (err.code === 'EADDRINUSE' && port === 5000) {
-        log(`Port ${port} is already in use, trying port 3000`);
-        tryPort(3000);
-      } else {
-        console.error(`Error starting server: ${err.message}`);
-      }
-    });
-  };
+      serverInstance.on('error', (err: any) => {
+        if (err.code === 'EADDRINUSE' && port === 5000) {
+          log(`Port ${port} is already in use, trying port 3000`);
+          tryPort(3000);
+        } else {
+          console.error(`Error starting server: ${err.message}`);
+        }
+      });
+    };
 
-  tryPort(5000);
+    tryPort(5000);
+  }
 })();
+
+export default app;
